@@ -1,4 +1,4 @@
-boolean buildPassed = true
+def buildPassed = true
 
 pipeline {
     agent any
