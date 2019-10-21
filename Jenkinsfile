@@ -1,8 +1,8 @@
 pipeline {
     agent any
+        boolean buildPassed = true
 
     stages {
-        boolean buildPassed = true
         stage('Build') {
             try {
                 echo "Building..."
