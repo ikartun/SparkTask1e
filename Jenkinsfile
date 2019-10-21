@@ -1,6 +1,7 @@
+boolean buildPassed = true
+
 pipeline {
     agent any
-        boolean buildPassed = true
 
     stages {
         stage('Build') {
